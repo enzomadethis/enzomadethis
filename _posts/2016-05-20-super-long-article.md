@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some articles are just so long they deserve a really long title to see if things
-  will break
+  will break properly
 featured_image: "/uploads/blog-placeholder.jpg"
 author: Ryan Underwood
 
