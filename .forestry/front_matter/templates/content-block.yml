@@ -1,0 +1,77 @@
+---
+label: content-block
+hide_body: true
+is_partial: true
+fields:
+- type: text
+  name: template
+  label: Template
+  default: content-block
+  hidden: true
+  config:
+    required: true
+- type: text
+  name: block
+  label: block
+  default: content-block
+  hidden: true
+  config:
+    required: true
+- type: select
+  name: padding_top
+  config:
+    source:
+      type: simple
+    options:
+    - none
+    - xs
+    - sm
+    - md
+    - lg
+    - xl
+  label: Padding Top
+- type: select
+  name: padding_bottom
+  config:
+    source:
+      type: simple
+    options:
+    - none
+    - xs
+    - sm
+    - md
+    - lg
+    - xl
+  label: Padding Bottom
+- type: select
+  name: block_size
+  config:
+    source:
+      type: simple
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+    - '11'
+    - '12'
+  label: Block Size
+- type: boolean
+  name: center_block
+  label: Center Block
+- type: select
+  name: text_align
+  config:
+    source:
+      type: simple
+    options:
+    - left
+    - center
+    - right
+  label: Text Align
