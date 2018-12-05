@@ -17,6 +17,13 @@ fields:
   hidden: true
   config:
     required: true
+- type: textarea
+  label: Content
+  name: content
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: select
   name: padding_top
   config:
@@ -75,3 +82,14 @@ fields:
     - center
     - right
   label: Text Align
+- type: select
+  name: background_color
+  config:
+    source:
+      type: simple
+    options:
+    - none
+    - dark
+    - accent
+    - lt-gray
+  label: Background Color
