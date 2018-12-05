@@ -1,0 +1,11 @@
+<section class="content-block">
+    <div class="container-fluid pt-{{section.padding_top }} pb-{{ section.padding_bottom }} minh-{{ section.minimum_screen_height }} bg-{{ section.background_color }} ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-{{ section.block_size }} {% if section.center_block == 'true' %} ml-auto mr-auto{% endif %} text-{{ section.text_align }}">
+                    {{ section.content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

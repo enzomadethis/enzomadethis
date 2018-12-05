@@ -1,0 +1,73 @@
+body, p {
+    font-family: $body; 
+    color: $text-black; 
+    font-size: $body-size;
+    line-height: 1.3;
+}
+
+p {
+    margin-bottom: $rem-xs;
+}
+
+p > a {
+    color: $accent;
+    font-weight: 500;
+}
+
+a {
+    color: $accent;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+    &:hover {
+        text-decoration: none;
+        color: rgba($accent,.8);
+    }
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+    font-weight: 400;
+    color: $header-color;
+    font-family: $header;
+}
+
+h6, .h6 {
+    font-family: $body;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: $text-black;
+}
+
+.fc{
+    &-header {
+        color: $header-color;
+    }
+    &-text {
+        color: $text-black;
+    }
+    &-accent {
+        color: $accent;
+    }
+    &-md-gray {
+        color: $md-gray;
+    }
+    &-lt-gray {
+        color: $lt-gray;
+    }
+}
+
+footer {
+    ul.footer-nav {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: $rem-xs;
+            a {
+                font-weight: 400;
+            }
+        }
+
+    }
+}

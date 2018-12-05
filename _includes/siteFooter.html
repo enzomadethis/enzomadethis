@@ -1,0 +1,34 @@
+<footer class="pt-md pb-md bg-lt-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h6>{{ site.title }}</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                {{ site.description }}
+            </div>
+            <div class="ml-auto col-md-2 col-sm-12">
+                <h6>Navigation</h6>
+                <ul class="footer-nav">
+                    {% for item in site.data.navigation %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-12">
+                <h6>Social</h6>
+                <ul class="footer-nav">
+                    {% for item in site.data.social %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

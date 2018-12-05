@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<header class="blog-header mt-md">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col-12 featured-image" style="background-image: url('{{ page.featured_image }}');">
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pt-sm">
+        <div class="container">
+            <div class="row">
+                <div class="ml-auto mr-auto col-md-7 col-sm-12">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                    <p class="lead">{{ page.subtitle }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="ml-auto mr-auto col-md-7 col-sm-12">
+                    <div class="container-fluid p-0">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <p class="fc-md-gray"><span class="small"><i class="fa fa-user"></i></span>&nbsp;&nbsp;Author: <strong class="fc-accent">{{ page.author }}</strong></p>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <p class="fc-md-gray"><span class="small"><i class="fa fa-clock-o"></i></span>&nbsp;&nbsp;Reading Time: <strong class="fc-accent">{% assign words = content | number_of_words %}{% if words < 360 %}1 min{% else %}{{ words | divided_by:180 }} mins{% endif %}</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<article class="blog-post">
+    <div class="container-fluid pt-sm pb-lg">
+        <div class="container">
+            <div class="row">
+                <div class="ml-auto mr-auto col-md-7 col-sm-12">
+                    {{ page.content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</article>

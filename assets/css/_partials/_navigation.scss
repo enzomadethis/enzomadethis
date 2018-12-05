@@ -1,0 +1,11 @@
+.navbar-light .navbar-brand {
+    color: $accent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $text-black;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: $accent;
+}

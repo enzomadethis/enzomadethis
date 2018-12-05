@@ -1,0 +1,229 @@
+/*================
+Heights
+=================*/
+.minh-100vh {
+    min-height: 100vh;
+}
+
+.minh-75vh {
+    min-height: 75vh;
+}
+
+.minh-50vh {
+    min-height: 50vh;
+}
+
+.minh-25vh {
+    min-height: 25vh;
+}
+
+@media screen and (min-width: $breakpoint-md) {
+    .minh-md-100vh {
+        min-height: 100vh;
+    }
+    
+    .minh-md-75vh {
+        min-height: 75vh;
+    }
+    
+    .minh-md-50vh {
+        min-height: 50vh;
+    }
+    
+    .minh-md-25vh {
+        min-height: 25vh;
+    }
+}
+
+@media screen and (min-width: $breakpoint-lg) {
+    .minh-lg-100vh {
+        min-height: 100vh;
+    }
+    
+    .minh-lg-75vh {
+        min-height: 75vh;
+    }
+    
+    .minh-lg-50vh {
+        min-height: 50vh;
+    }
+    
+    .minh-lg-25vh {
+        min-height: 25vh;
+    }
+}
+
+/*================
+Padding Y
+=================*/
+.pt-xs, .py-xs {
+    padding-top: $rem-xs;
+}
+
+.pb-xs, .py-xs {
+    padding-bottom: $rem-xs;
+}
+
+.pt-sm, .py-sm {
+    padding-top: $rem-sm;
+}
+
+.pb-sm, .py-sm {
+    padding-bottom: $rem-sm;
+}
+
+.pt-md, .py-md {
+    padding-top: $rem-md;
+}
+
+.pb-md, .py-md {
+    padding-bottom: $rem-md;
+}
+
+.pt-lg, .py-lg {
+    padding-top: $rem-lg;
+}
+
+.pb-lg, .py-lg {
+    padding-bottom: $rem-lg;
+}
+
+.pt-xl, .py-xl {
+    padding-top: $rem-xl;
+}
+
+.pb-xl, .py-xl {
+    padding-bottom: $rem-xl;
+}
+
+
+/*================
+Padding X
+=================*/
+.pl-xs, .px-xs {
+    padding-top: $rem-xs;
+}
+
+.pr-xs, .px-xs {
+    padding-bottom: $rem-xs;
+}
+
+.pl-sm, .px-sm {
+    padding-top: $rem-sm;
+}
+
+.pr-sm, .px-sm {
+    padding-bottom: $rem-sm;
+}
+
+.pl-md, .px-md {
+    padding-top: $rem-md;
+}
+
+.pr-md, .px-md {
+    padding-bottom: $rem-md;
+}
+
+.pl-lg, .px-lg {
+    padding-top: $rem-lg;
+}
+
+.pr-lg, .px-lg {
+    padding-bottom: $rem-lg;
+}
+
+.pl-xl, .px-xl {
+    padding-top: $rem-xl;
+}
+
+.pr-xl, .px-xl {
+    padding-bottom: $rem-xl;
+}
+
+
+/*================
+margin Y
+=================*/
+.mt-xs, .my-xs {
+    margin-top: $rem-xs;
+}
+
+.mb-xs, .my-xs {
+    margin-bottom: $rem-xs;
+}
+
+.mt-sm, .my-sm {
+    margin-top: $rem-sm;
+}
+
+.mb-sm, .my-sm {
+    margin-bottom: $rem-sm;
+}
+
+.mt-md, .my-md {
+    margin-top: $rem-md;
+}
+
+.mb-md, .my-md {
+    margin-bottom: $rem-md;
+}
+
+.mt-lg, .my-lg {
+    margin-top: $rem-lg;
+}
+
+.mb-lg, .my-lg {
+    margin-bottom: $rem-lg;
+}
+
+.mt-xl, .my-xl {
+    margin-top: $rem-xl;
+}
+
+.mb-xl, .my-xl {
+    margin-bottom: $rem-xl;
+}
+
+
+/*================
+margin X
+=================*/
+.ml-xs, .mx-xs {
+    margin-top: $rem-xs;
+}
+
+.mr-xs, .mx-xs {
+    margin-bottom: $rem-xs;
+}
+
+.ml-sm, .mx-sm {
+    margin-top: $rem-sm;
+}
+
+.mr-sm, .mx-sm {
+    margin-bottom: $rem-sm;
+}
+
+.ml-md, .mx-md {
+    margin-top: $rem-md;
+}
+
+.mr-md, .mx-md {
+    margin-bottom: $rem-md;
+}
+
+.ml-lg, .mx-lg {
+    margin-top: $rem-lg;
+}
+
+.mr-lg, .mx-lg {
+    margin-bottom: $rem-lg;
+}
+
+.ml-xl, .mx-xl {
+    margin-top: $rem-xl;
+}
+
+.mr-xl, .mx-xl {
+    margin-bottom: $rem-xl;
+}

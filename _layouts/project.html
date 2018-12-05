@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<header class="project-header">
+    <div class="container-fluid minh-50vh pt-lg pb-md d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="ml-auto mr-auto col-md-7 col-sm-12">
+                    <h1 class="text-center mb-sm">{{ page.title }}</h1>
+                </div>
+                <div class="col-md-7 col-sm-12 ml-auto mr-auto table-of-contents mb-sm">
+                    <div class="row">
+                        {% for section in page.page_sections %}
+                        {% if section.toc_element == 'true' %}
+                            <div class="col-md-4 col-sm-12 ml-auto mr-auto text-center">
+                                <a href="#{{ section.section_title | remove: " "}}">{{ section.section_title }}</a>
+                            </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-12 ml-auto mr-auto">
+                    {{ page.description }}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<article class="project-page">
+    {% for section in page.page_sections %}
+        {% include block-{{ section.block }}.html %}
+    {% endfor %}
+</article>

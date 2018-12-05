@@ -1,0 +1,26 @@
+---
+layout: default
+title: Journal
+---
+<header class="blog-header">
+    <div class="container-fluid py-lg d-flex align-items-center bg-lt-gray">
+        <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>{{ page.title }}</h1>
+                    </div>
+                </div>
+            </div>
+    </div>
+</header>
+<section class="blog-loop">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                {% for post in site.posts %}
+                    {{ post.url }}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
