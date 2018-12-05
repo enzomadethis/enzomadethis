@@ -42,7 +42,8 @@ page_sections:
   center_block: 'true'
   text_align: left
   background_color: lt-gray
-  content: <p><img src="../uploads/placeholder.jpg"></p>
+  content: <p><img src="../uploads/placeholder.jpg"></p><p>This the caption. | <a
+    href="/index.html" title="Llink">Link</a></p>
 - template: section-title
   block: section-title
   toc_element: 'true'
