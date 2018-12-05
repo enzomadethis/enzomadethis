@@ -43,7 +43,7 @@ page_sections:
   text_align: left
   background_color: lt-gray
   content: <p><img src="../uploads/placeholder.jpg"></p><p>This the caption. | <a
-    href="/index.html" title="Llink">Link</a></p>
+    href="http://tumblr.com" title="">Link</a></p>
 - template: section-title
   block: section-title
   toc_element: 'true'
