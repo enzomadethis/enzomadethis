@@ -32,3 +32,5 @@ fields:
 - type: blocks
   name: page_sections
   label: Page Sections
+pages:
+- _projects/sample-project-1.md
