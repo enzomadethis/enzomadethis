@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Some articles are just so long they deserve a really long title to see if things will break well"
-featured_image: /uploads/blog-placeholder.jpg
+title: Some articles are just so long they deserve a really long title to see if things
+  will break
+featured_image: "/uploads/blog-placeholder.jpg"
 author: Ryan Underwood
+
 ---
 One morning, as Gregor Samsa was waking up from anxious dreams, he discovered that in bed he had been changed into a monstrous verminous bug. He lay on his armour-hard back and saw, as he lifted his head up a little, his brown, arched abdomen divided up into rigid bow-like sections. From this height the blanket, just about ready to slide off completely, could hardly stay in place. His numerous legs, pitifully thin in comparison to the rest of his circumference, flickered helplessly before his eyes.
 
