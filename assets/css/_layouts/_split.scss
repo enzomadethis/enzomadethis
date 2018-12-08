@@ -1,0 +1,15 @@
+.split-layout {
+    @media screen and (min-width: $breakpoint-md) {
+        .featured-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+    .featured-image {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: $lt-gray;
+    }
+}
