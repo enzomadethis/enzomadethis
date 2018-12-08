@@ -7,8 +7,10 @@ layout: default
             <div class="col-md-5 order-md-2 minh-md-100vh minh-75vh featured-image" style="background-image: url('{{ page.featured_image }}');">
             
             </div>
-            <div class="col-md-7">
-                
+            <div class="col-md-7 p-0">
+                {% for section in page.page_sections %}
+                    {% include block-{{ section.block }}.html %}
+                {% endfor %}
             </div>
         </div>
     </div>

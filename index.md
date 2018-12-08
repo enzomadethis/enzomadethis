@@ -3,19 +3,9 @@ layout: split
 title: Enzo Fiorello
 featured_image: /uploads/C5E7F620478B399834D0CE622767C95D.JPEG
 page_sections: 
-- template: content-block
-  block: content-block
-  padding_top: 'xl'
-  padding_bottom: 'md'
-  minimum_screen_height: 50vh
-  block_size: '7'
-  center_block: 'true'
-  text_align: center
-  background_color: white
-  content: <h1>Digital Designer</h1><p>This is a little blurb about me. It can go on and on and on so long as I want it to. Really though, I should keep it short so I can have my about me page.</p>
-- template: home-projects
-  block: home-projects
-  background_color: 'white'
-  padding_top: '0'
-  padding_bottom: 'md'
+- template: split-introduction
+  block: split-introduction
+  background_color: none
+  vertical_align: end
+  content: <h1>Enzo Fiorello</h1><p>I'm here to digitally fuck shit up and make some cool ass pizza... and designs. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum pariatur, exercitationem eveniet ratione at numquam dolorum dolore? Corrupti veniam totam quaerat voluptas vero iusto ea enim natus neque numquam? Cumque!</p>
 ---
