@@ -5,12 +5,10 @@ is_partial: true
 display_field: title
 fields:
 - type: text
-  name: split-introduction
+  name: block
   label: block
-  hidden: false
-  config:
-    required: false
   default: split-introduction
+  hidden: true
 - type: text
   name: title
   label: title
