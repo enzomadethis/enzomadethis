@@ -7,9 +7,9 @@ fields:
 - type: text
   name: split-introduction
   label: block
-  hidden: true
+  hidden: false
   config:
-    required: true
+    required: false
   default: split-introduction
 - type: text
   name: title
