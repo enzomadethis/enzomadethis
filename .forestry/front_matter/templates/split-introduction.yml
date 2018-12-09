@@ -1,0 +1,44 @@
+---
+label: split-introduction
+hide_body: true
+is_partial: true
+display_field: title
+fields:
+- type: text
+  name: split-introduction
+  label: block
+  hidden: true
+  config:
+    required: true
+  default: split-introduction
+- type: text
+  name: title
+  label: title
+- type: select
+  name: background_color
+  config:
+    source:
+      type: simple
+    options:
+    - none
+    - dark
+    - accent
+    - lt-gray
+  label: Background Color
+- type: select
+  name: vertical_align
+  config:
+    source:
+      type: simple
+    options:
+    - start
+    - center
+    - end
+  label: Vertical Align
+- type: textarea
+  name: content
+  label: Content
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
