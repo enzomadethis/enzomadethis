@@ -13,7 +13,7 @@ page_sections:
     Corrupti veniam totam quaerat voluptas vero iusto ea enim natus neque numquam?</p>"
   title: Introduction
   split-introduction: split-introduction
-- template: split-home-projects
+- template: home-projects
   block: split-home-projects
 
 ---
