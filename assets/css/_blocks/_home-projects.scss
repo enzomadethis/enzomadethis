@@ -1,35 +1,36 @@
-$project-height: 600px;
-.home-projects {
+$project-height: 400px;
+.split-home-projects {
 
-    .project {
+    .project-post {
+        margin-bottom: $rem-sm;
+    }
+
+    .project-post-image {
+        height: $project-height;
+        width: 100%;
         background-size: cover;
-        background-repeat: no-repeat;
         background-position: center;
-        min-height: $project-height;
-        margin-top: $rem-xs;
-        margin-bottom: $rem-xs;
-
-
-        .project-inner {
-            min-height: $project-height;
+        background-repeat: no-repeat;
+        margin-bottom: $rem-sm;
+        .overlay {
+            height: 100%;
             width: 100%;
-            background-color: rgba(0,0,0,.7);
-            padding: $rem-sm;
+            background-color: $overlay;
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: $rem-xs;
             opacity: 0;
             transition: .3s ease-in-out;
-            &:hover {
-                opacity: 1;
-            }
-
-            .project-inner-content h3, .project-inner-content p {
+            h5 {
                 color: $lt-gray;
             }
-
         }
-
+        &:hover {
+            .overlay {
+                opacity: 1;
+            }
+        }
     }
 
 }

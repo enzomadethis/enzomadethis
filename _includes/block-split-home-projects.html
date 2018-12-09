@@ -1,0 +1,28 @@
+<section class="split-home-projects">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                    {% assign sorted = site.projects | sort: 'date' %}
+                    {% for item in sorted %}
+                    <div class="col-md-8 col-sm-12 ml-auto mr-auto project-post">
+                        <a href="{{ item.url }}">
+                            <div class="project-post-image" style="background-image: url('{{ item.image }}');">
+                                <div class="overlay">
+                                    <h5><i class="fa fa-plus"></i></h5>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="project-post-content">
+                            <a href="{{ item.url }}">
+                                <h3>{{ item.title }}</h3>
+                            </a>
+                            <p>
+                                {{ item.categories | join: ", " }}
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

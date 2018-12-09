@@ -8,4 +8,6 @@ page_sections:
   background_color: none
   vertical_align: end
   content: <h1>Enzo Fiorello</h1><p>I'm here to digitally fuck shit up and make some cool ass pizza... and designs. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum pariatur, exercitationem eveniet ratione at numquam dolorum dolore? Corrupti veniam totam quaerat voluptas vero iusto ea enim natus neque numquam? Cumque!</p>
+- template: split-home-projects
+  block: split-home-projects
 ---
