@@ -1,5 +1,5 @@
 ---
-label: Split
+label: split
 hide_body: true
 is_partial: false
 fields:
@@ -19,5 +19,7 @@ fields:
 - type: blocks
   name: page_sections
   label: Page Sections
+  template_types:
+  - split-introduction
 pages:
 - index.md
