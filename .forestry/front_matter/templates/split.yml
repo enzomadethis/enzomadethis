@@ -19,3 +19,5 @@ fields:
 - type: blocks
   name: page_sections
   label: Page Sections
+pages:
+- index.md
