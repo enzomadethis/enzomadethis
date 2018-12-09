@@ -1,0 +1,10 @@
+---
+label: home-projects
+hide_body: false
+is_partial: true
+display_field: block
+fields:
+- type: text
+  name: block
+  label: block
+  default: home-projects
