@@ -1,3 +1,10 @@
+.navbar {
+    transition: .3s ease-in-out;
+    @media screen and (max-width: $breakpoint-md ) {
+        background-color: white;
+    }
+}
+
 .navbar-light .navbar-brand {
     color: $accent;
 }
@@ -8,4 +15,8 @@
 
 .navbar-light .navbar-nav .active > .nav-link {
     color: $accent;
+}
+
+.navbar.scrolled {
+    background-color: white;
 }
