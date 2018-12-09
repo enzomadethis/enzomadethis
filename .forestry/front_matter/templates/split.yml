@@ -1,0 +1,21 @@
+---
+label: Split
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: Split
+  hidden: true
+  config:
+    required: true
+- type: text
+  name: title
+  label: Title
+- type: file
+  label: Image
+  name: featured_image
+- type: blocks
+  name: page_sections
+  label: Page Sections
