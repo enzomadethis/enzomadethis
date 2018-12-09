@@ -1,5 +1,5 @@
 ---
-layout: Split
+layout: split
 title: Enzo Fiorello
 featured_image: "/uploads/C5E7F620478B399834D0CE622767C95D.JPEG"
 page_sections:
