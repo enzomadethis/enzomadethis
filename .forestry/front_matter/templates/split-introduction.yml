@@ -10,7 +10,7 @@ fields:
   hidden: true
   config:
     required: true
-  default: split-introduction
+  default: split-introducti
 - type: text
   name: title
   label: title
