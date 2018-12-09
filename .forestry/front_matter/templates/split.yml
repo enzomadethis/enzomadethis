@@ -6,7 +6,7 @@ fields:
 - type: text
   name: layout
   label: layout
-  default: Split
+  default: split
   hidden: true
   config:
     required: true
