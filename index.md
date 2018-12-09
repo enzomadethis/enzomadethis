@@ -12,6 +12,7 @@ page_sections:
     elit. Eum pariatur, exercitationem eveniet ratione at numquam dolorum dolore?
     Corrupti veniam totam quaerat voluptas vero iusto ea enim natus neque numquam?</p>"
   title: Introduction
+  split-introduction: split-introduction
 - template: split-home-projects
   block: split-home-projects
 
